@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{88C07FAD-86F9-41E5-8CA1-304A65D40DB1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{83C30A2E-9B6C-4C1F-B815-A353A4505EE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arkano.taller.api", "backend\arkano.taller.api\arkano.taller.api.csproj", "{B5908003-7FDB-427D-9E17-28A85BB28155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arkano.taller.core", "backend\arkano.taller.core\arkano.taller.core.csproj", "{430D850C-BFE9-4991-AE5F-B9061BAE0565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arkano.taller.test", "tests\arkano.taller.test\arkano.taller.test.csproj", "{AEFBFEB9-2457-4423-B6C7-A2E20BBE48B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5908003-7FDB-427D-9E17-28A85BB28155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5908003-7FDB-427D-9E17-28A85BB28155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5908003-7FDB-427D-9E17-28A85BB28155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5908003-7FDB-427D-9E17-28A85BB28155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{430D850C-BFE9-4991-AE5F-B9061BAE0565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{430D850C-BFE9-4991-AE5F-B9061BAE0565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{430D850C-BFE9-4991-AE5F-B9061BAE0565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{430D850C-BFE9-4991-AE5F-B9061BAE0565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEFBFEB9-2457-4423-B6C7-A2E20BBE48B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEFBFEB9-2457-4423-B6C7-A2E20BBE48B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEFBFEB9-2457-4423-B6C7-A2E20BBE48B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEFBFEB9-2457-4423-B6C7-A2E20BBE48B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B5908003-7FDB-427D-9E17-28A85BB28155} = {88C07FAD-86F9-41E5-8CA1-304A65D40DB1}
+		{430D850C-BFE9-4991-AE5F-B9061BAE0565} = {88C07FAD-86F9-41E5-8CA1-304A65D40DB1}
+		{AEFBFEB9-2457-4423-B6C7-A2E20BBE48B1} = {83C30A2E-9B6C-4C1F-B815-A353A4505EE3}
+	EndGlobalSection
+EndGlobal

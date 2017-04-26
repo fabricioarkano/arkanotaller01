@@ -1,0 +1,6 @@
+**/bin
+**/obj
+/backend/arkano.taller.api/Properties/PublishProfiles/*.pubxml
+/backend/arkano.taller.api/*.user
+/.vs/arkanotaller/v15/*.suo
+backend/arkano.taller.api/internal-nlog.txt
